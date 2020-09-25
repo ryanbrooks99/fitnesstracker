@@ -23,8 +23,8 @@ mongoose.connect(
     }
 );
 
-require("./routes/html-routes")(app);
-require("./routes/api-routes.js")(app);
+require("./controllers/html-routes")(app);
+require("./controllers/api-routes.js")(app);
 
 
 

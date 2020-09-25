@@ -1,4 +1,6 @@
 const path = require("path");
+const router = require("express").Router();
+const Workout = require("../models")
 
 module.exports = function (app) {
     app.get("/", (req, res) => {
